@@ -25,3 +25,7 @@ Código de desenvolvimento no módulo Django do Site [Dev Pro](https://pythonpro
 #### Rodar Django:
 
 ```python manage.py runserver```
+
+### Localizar arquivo manage.py:
+
+'''alias mng="python $VIRTUAL_ENV/../manage.py"'''
