@@ -8,6 +8,7 @@ pytest = "*"
 pytest-cov = "*"
 gunicorn = "*"
 flake8 = "*"
+pytest-django = "*"
 
 [dev-packages]
 flake8 = "*"
