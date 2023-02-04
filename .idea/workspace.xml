@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="Implementado github actions, pytest e codecov" />
+    <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="implementada entrega contínua no fly.io com o github actions&#10;&#10;close #7">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,16 +12,13 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="github_actions" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/requirements.txt" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/sitedevpro/base/views.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/sitedevpro/sitedevpro/settings.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/sitedevpro/sitedevpro/urls.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -62,7 +61,35 @@
       <option name="project" value="LOCAL" />
       <updated>1675340558026</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Criada app base&#10;&#10;close #2, close #4">
+      <created>1675426381400</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675426381400</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Criada app base&#10;&#10;close #2, close #4">
+      <created>1675426398145</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675426398145</updated>
+    </task>
+    <task id="LOCAL-00005" summary="implementada entrega contínua no fly.io com o github actions&#10;&#10;close #7">
+      <created>1675512348895</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675512348895</updated>
+    </task>
+    <task id="LOCAL-00006" summary="implementada entrega contínua no fly.io com o github actions&#10;&#10;close #7">
+      <created>1675512491616</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675512491616</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -78,6 +105,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implementado github actions, pytest e codecov&#10;&#10;close #1, #2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementado github actions, pytest e codecov&#10;&#10;close #1, #2" />
+    <MESSAGE value="Criada app base&#10;&#10;close #2, close #4" />
+    <MESSAGE value="implementada entrega contínua no fly.io com o github actions&#10;&#10;close #7" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementada entrega contínua no fly.io com o github actions&#10;&#10;close #7" />
   </component>
 </project>
