@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="implementada entrega contínua no fly.io com o github actions&#10;&#10;close #7">
-      <change beforePath="$PROJECT_DIR$/.idea/DjangoPro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DjangoPro.iml" afterDir="false" />
+    <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="criados testes com o pytest-django&#10;close #6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitedevpro/base/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitedevpro/base/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitedevpro/base/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitedevpro/base/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitedevpro/base/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitedevpro/base/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitedevpro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675512770742</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="criados testes com o pytest-django&#10;close #6">
+      <created>1675514911686</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1675514911686</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,6 +137,7 @@
     <MESSAGE value="Implementado github actions, pytest e codecov&#10;&#10;close #1, #2" />
     <MESSAGE value="Criada app base&#10;&#10;close #2, close #4" />
     <MESSAGE value="implementada entrega contínua no fly.io com o github actions&#10;&#10;close #7" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementada entrega contínua no fly.io com o github actions&#10;&#10;close #7" />
+    <MESSAGE value="criados testes com o pytest-django&#10;close #6" />
+    <option name="LAST_COMMIT_MESSAGE" value="criados testes com o pytest-django&#10;close #6" />
   </component>
 </project>
