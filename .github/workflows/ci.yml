@@ -46,11 +46,12 @@ jobs:
     - name: Rodar Testes Automáticos
       run: |
         pytest --cov=sitedevpro
-    - name: Relatório Coverage
-      env:
-        CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
-      run: |
-        pipenv run codecov
+        pip install pytest
+        pip install pytest-cov
+        pytest tests.py --doctest-modules --junitxml=junit/test-results.xml --cov=com --cov-report=xml --cov-report=html
+    
+      
+         
     
         
     
