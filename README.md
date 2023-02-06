@@ -40,3 +40,6 @@ copie os caminhos export para o seu arquivo: ```source ~/.zshrc```
 
 #### Rodar o fly.io:
 ```fly launch```
+
+#### cobertura de testes:
+```pipenv install --dev 'pytest-cov' codecov```
