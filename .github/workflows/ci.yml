@@ -38,7 +38,7 @@ jobs:
 
     - name: Instalar dependências
       run: |
-        pip install -r requirements-dev.txt
+        pipenv install requirements.txt
     - name: Rodar flake8
       uses: py-actions/flake8@v1
       with:
