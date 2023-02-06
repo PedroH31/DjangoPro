@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="criados testes com o pytest-django&#10;close #6">
+    <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="integrada cobertura de testes&#10;close #9">
       <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +132,28 @@
       <option name="project" value="LOCAL" />
       <updated>1675516146968</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="integrada cobertura de testes&#10;close #9">
+      <created>1675683353414</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1675683353414</updated>
+    </task>
+    <task id="LOCAL-00013" summary="integrada cobertura de testes&#10;close #9">
+      <created>1675683564301</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1675683564301</updated>
+    </task>
+    <task id="LOCAL-00014" summary="integrada cobertura de testes&#10;close #9">
+      <created>1675683742095</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1675683742095</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,6 +172,7 @@
     <MESSAGE value="Criada app base&#10;&#10;close #2, close #4" />
     <MESSAGE value="implementada entrega contínua no fly.io com o github actions&#10;&#10;close #7" />
     <MESSAGE value="criados testes com o pytest-django&#10;close #6" />
-    <option name="LAST_COMMIT_MESSAGE" value="criados testes com o pytest-django&#10;close #6" />
+    <MESSAGE value="integrada cobertura de testes&#10;close #9" />
+    <option name="LAST_COMMIT_MESSAGE" value="integrada cobertura de testes&#10;close #9" />
   </component>
 </project>
