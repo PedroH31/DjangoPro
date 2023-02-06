@@ -43,3 +43,6 @@ copie os caminhos export para o seu arquivo: ```source ~/.zshrc```
 
 #### cobertura de testes:
 ```pipenv install --dev 'pytest-cov' codecov```
+
+#### python decouple:
+```pipenv install 'python-decouple'```
