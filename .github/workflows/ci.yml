@@ -36,10 +36,6 @@ jobs:
         python-version: '3.11.0'
         cache: pip
 
-    - name: Instalar pytest
-      run: |
-        pip install pytest      
-
     - name: Instalar dependências
       run: |
         pip install -r requirements.txt
