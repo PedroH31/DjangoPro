@@ -41,7 +41,7 @@ jobs:
         pip install -r requirements.txt
     - name: Copiar configurações .env
       run: |
-        - cp contrib/env-sample .env
+        cp contrib/env-sample .env
     #- name: Rodar flake8
       #uses: py-actions/flake8@v1
       #with:
