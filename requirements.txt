@@ -14,5 +14,5 @@ sqlparse==0.4.3
 tomli==2.0.1
 python-decouple==3.7
 dj-database-url==1.2.0
-
+psycopg2-binary==2.9.5
 
