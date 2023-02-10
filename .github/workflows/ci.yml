@@ -42,10 +42,10 @@ jobs:
     - name: Copiar configurações .env
       run: |
         cp contrib/env-sample .env
-    #- name: Rodar flake8
-      #uses: py-actions/flake8@v1
-      #with:
-        #checkName: 'flake8_py3'
+    - name: Rodar flake8
+      uses: py-actions/flake8@v1
+      with:
+        checkName: 'flake8_py3'
     - name: Rodar Testes Automáticos
       run: |
         pytest --cov=sitedevpro
