@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="coletados arquivos estáticos, configurado o amazon AWS e configurada lib django-s3-folder-storage&#10;&#10;close #21 close #22 close #23">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitedevpro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +21,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="16" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -71,6 +73,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in test_home.py" />
+        <item itemvalue="Python tests.pytest in test_home.py" />
+        <item itemvalue="Python tests.pytest in test_home.py" />
         <item itemvalue="Python tests.pytest in test_home.py" />
       </list>
     </recent_temporary>
@@ -325,6 +330,7 @@
     <MESSAGE value="Configurado endereço do banco de dados direcionado ao PostgreSQL&#10;close #16" />
     <MESSAGE value="configurado PostgreSQL no servidor de integração contínua.&#10;&#10;close #19" />
     <MESSAGE value="coletados arquivos estáticos, configurado o amazon AWS e configurada lib django-s3-folder-storage&#10;&#10;close #21 close #22 close #23" />
-    <option name="LAST_COMMIT_MESSAGE" value="coletados arquivos estáticos, configurado o amazon AWS e configurada lib django-s3-folder-storage&#10;&#10;close #21 close #22 close #23" />
+    <MESSAGE value="Configuradas variáveis do AWS e instalada lib Collectfast&#10;&#10;close #25" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configuradas variáveis do AWS e instalada lib Collectfast&#10;&#10;close #25" />
   </component>
 </project>
