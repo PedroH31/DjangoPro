@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="coletados arquivos estáticos, configurado o amazon AWS e configurada lib django-s3-folder-storage&#10;&#10;close #21 close #22 close #23">
+    <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="consertado erro no codecov">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +52,7 @@
       <recent name="$PROJECT_DIR$/contrib" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.pytest in tests">
     <configuration name="pytest in test_home.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="DjangoPro" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -69,8 +69,25 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in tests" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="DjangoPro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sitedevpro/base/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/sitedevpro/base/tests&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in tests" />
         <item itemvalue="Python tests.pytest in test_home.py" />
         <item itemvalue="Python tests.pytest in test_home.py" />
         <item itemvalue="Python tests.pytest in test_home.py" />
@@ -311,7 +328,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676125915925</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="aplicando migrações no fly.io&#10;&#10;close #30">
+      <created>1676287222678</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1676287222678</updated>
+    </task>
+    <task id="LOCAL-00034" summary="consertado erro no codecov">
+      <created>1676287752950</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1676287752950</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -336,6 +367,8 @@
     <MESSAGE value="configurado PostgreSQL no servidor de integração contínua.&#10;&#10;close #19" />
     <MESSAGE value="coletados arquivos estáticos, configurado o amazon AWS e configurada lib django-s3-folder-storage&#10;&#10;close #21 close #22 close #23" />
     <MESSAGE value="Configuradas variáveis do AWS e instalada lib Collectfast&#10;&#10;close #25" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configuradas variáveis do AWS e instalada lib Collectfast&#10;&#10;close #25" />
+    <MESSAGE value="aplicando migrações no fly.io&#10;&#10;close #30" />
+    <MESSAGE value="consertado erro no codecov" />
+    <option name="LAST_COMMIT_MESSAGE" value="consertado erro no codecov" />
   </component>
 </project>
