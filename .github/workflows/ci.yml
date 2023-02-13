@@ -42,12 +42,6 @@ jobs:
     - name: Copiar configurações .env
       run: |
         cp contrib/env-sample .env
-    
-    - name: codecov-umbrella
-      env:
-        CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
-      run:
-        codecov
 
     #- name: Rodar flake8
       #uses: py-actions/flake8@v1
@@ -55,9 +49,14 @@ jobs:
         #checkName: 'flake8_py3'
     - name: Rodar Testes Automáticos
       run: |
-        pytest --cov=sitedevpro
         pip install pytest
         pip install pytest-cov
+        pytest --cov=sitedevpro --cov-report=xml
+    
+    - name: codecov upload
+      with:
+        CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+
        
     
       
