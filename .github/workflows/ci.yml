@@ -54,6 +54,7 @@ jobs:
         pytest --cov=sitedevpro --cov-report=xml
     
     - name: codecov upload
+      uses: codecov/codecov-action@v3
       with:
         CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
 
