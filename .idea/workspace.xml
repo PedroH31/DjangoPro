@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="coletados arquivos estáticos, configurado o amazon AWS e configurada lib django-s3-folder-storage&#10;&#10;close #21 close #22 close #23">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitedevpro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -306,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676033564354</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="adicionada conexão com o banco de dados, criadas e aplicadas migrações&#10;&#10;close #27, close #28">
+      <created>1676125915925</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1676125915925</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
