@@ -44,13 +44,11 @@ jobs:
         cp contrib/env-sample .env
     
     - name: codecov-umbrella
-    - uses: actions/checkout@master
-      with:
-        token: ${{ secrets.CODECOV_TOKEN }}
-        files: ./coverage1.xml,./coverage2.xml
-        flags: unittests
-        fail_ci_if_error: true
-        verbose: true
+      env:
+        CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+      run:
+        codecov
+
     #- name: Rodar flake8
       #uses: py-actions/flake8@v1
       #with:
