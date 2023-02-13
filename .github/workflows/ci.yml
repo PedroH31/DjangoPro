@@ -52,11 +52,12 @@ jobs:
         pip install pytest
         pip install pytest-cov
         pytest --cov=sitedevpro --cov-report=xml
-    
-    - name: codecov upload
-      uses: codecov/codecov-action@v3
-      with:
+
+    - name: Relatório Coverage
+      env:
         CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+      run: |
+        codecov
 
        
     
