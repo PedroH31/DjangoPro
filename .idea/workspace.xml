@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="adicionada badge do codecov" />
+    <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="adicionada badge do codecov">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="32" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -340,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676287752950</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="adicionada badge do codecov">
+      <created>1676470079096</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1676470079096</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -367,6 +377,7 @@
     <MESSAGE value="Configuradas variáveis do AWS e instalada lib Collectfast&#10;&#10;close #25" />
     <MESSAGE value="aplicando migrações no fly.io&#10;&#10;close #30" />
     <MESSAGE value="consertado erro no codecov" />
-    <option name="LAST_COMMIT_MESSAGE" value="consertado erro no codecov" />
+    <MESSAGE value="adicionada badge do codecov" />
+    <option name="LAST_COMMIT_MESSAGE" value="adicionada badge do codecov" />
   </component>
 </project>
