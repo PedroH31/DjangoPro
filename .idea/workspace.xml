@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="configurado o rodapé, adicionado favicon, imagens e html.&#10;&#10;close #43, close #44">
+    <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="Criado formulário de lista de espera&#10;&#10;close #46">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitedevpro/base/templates/base/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/base/templates/base/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,14 +40,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/Pedro/PycharmProjects/DjangoPro/sitedevpro/base/static/img",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/Pedro/PycharmProjects/DjangoPro/sitedevpro/base/static/img&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/sitedevpro/base/static/img" />
@@ -95,10 +95,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in test_home.py" />
-        <item itemvalue="Python tests.pytest in tests" />
         <item itemvalue="Python tests.pytest in tests" />
         <item itemvalue="Python tests.pytest in test_home.py" />
+        <item itemvalue="Python tests.pytest in test_home.py" />
+        <item itemvalue="Python tests.pytest in tests" />
         <item itemvalue="Python tests.pytest in tests" />
       </list>
     </recent_temporary>
@@ -371,7 +371,28 @@
       <option name="project" value="LOCAL" />
       <updated>1676995089356</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Criado formulário de lista de espera&#10;&#10;close #46">
+      <created>1677011691653</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1677011691653</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Criado formulário de lista de espera&#10;&#10;close #46">
+      <created>1677012036637</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1677012036637</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Criado formulário de lista de espera&#10;&#10;close #46">
+      <created>1677012204370</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1677012204370</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -401,6 +422,7 @@
     <MESSAGE value="adicionada badge do codecov" />
     <MESSAGE value="adicionada template tag static &#10;&#10;close #37" />
     <MESSAGE value="configurado o rodapé, adicionado favicon, imagens e html.&#10;&#10;close #43, close #44" />
-    <option name="LAST_COMMIT_MESSAGE" value="configurado o rodapé, adicionado favicon, imagens e html.&#10;&#10;close #43, close #44" />
+    <MESSAGE value="Criado formulário de lista de espera&#10;&#10;close #46" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criado formulário de lista de espera&#10;&#10;close #46" />
   </component>
 </project>
