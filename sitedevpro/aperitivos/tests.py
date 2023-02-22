@@ -19,4 +19,3 @@ def test_titulo_video(resp):
 
 def test_conteudo_video(resp):
     assert_contains(resp, '<iframe width="560" height="315" src="https://www.youtube.com/embed/2aYplgJrPDU"')
-
