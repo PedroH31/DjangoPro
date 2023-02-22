@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'collectfast',
     'django.contrib.staticfiles',
     'sitedevpro.base',
+    'sitedevpro.aperitivos',
 
 ]
 
