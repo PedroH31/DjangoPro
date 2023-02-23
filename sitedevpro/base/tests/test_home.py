@@ -16,7 +16,7 @@ def test_status_code(resp):
 
 
 def test_title(resp):
-    assert_contains(resp, '<title>Python Pro</title>')
+    assert_contains(resp, '<title>Python Pro - Home</title>')
 
 
 def test_home_link(resp):
