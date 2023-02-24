@@ -14,7 +14,7 @@ class Video:
 
 videos = [
     Video('motivacao', 'Video Aperitivo: Motivação', '2aYplgJrPDU'),
-    Video('instalacao-windows', 'Instalação Windows', '6Cr_8tvvQ0k')
+    Video('instalacao-windows', 'Instalação Windows', '2ry-tfPUxJA')
 ]
 
 videos_dct = {v.slug: v for v in videos}
