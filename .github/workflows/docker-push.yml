@@ -19,7 +19,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: ghrc.io//django-fly
+          images: ghrc.io//sitepypro
           tags: |
             type=semver,pattern={{major}}.{{minor}}
       - name: Login to GitHub Container Registry
