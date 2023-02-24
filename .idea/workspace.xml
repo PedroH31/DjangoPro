@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="adicionados acesso a atributos e a métodos nos templates.&#10;&#10;close #60, close #61">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/docker-push.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/docker-push.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/env-sample" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/env-sample" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fly.toml" beforeDir="false" afterPath="$PROJECT_DIR$/fly.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitedevpro/aperitivos/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/aperitivos/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="Instalado postgreSQL usando o docker, configurado acesso local ao postgres &#10;&#10;close #63, close #64" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -500,7 +491,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677162771393</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Instalado postgreSQL usando o docker, configurado acesso local ao postgres &#10;&#10;close #63, close #64">
+      <created>1677243444178</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1677243444178</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -535,6 +533,7 @@
     <MESSAGE value="Adicionada herança de templates e adicionado contexto de template&#10;&#10;close #54" />
     <MESSAGE value="configurados vídeos pelo slug, adicionados filtros, lista de vídeos iterada com o laço for&#10;&#10;close #56, close #57, close #58" />
     <MESSAGE value="adicionados acesso a atributos e a métodos nos templates.&#10;&#10;close #60, close #61" />
-    <option name="LAST_COMMIT_MESSAGE" value="adicionados acesso a atributos e a métodos nos templates.&#10;&#10;close #60, close #61" />
+    <MESSAGE value="Instalado postgreSQL usando o docker, configurado acesso local ao postgres &#10;&#10;close #63, close #64" />
+    <option name="LAST_COMMIT_MESSAGE" value="Instalado postgreSQL usando o docker, configurado acesso local ao postgres &#10;&#10;close #63, close #64" />
   </component>
 </project>
