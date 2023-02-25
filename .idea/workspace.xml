@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="Instalado postgreSQL usando o docker, configurado acesso local ao postgres &#10;&#10;close #63, close #64">
+    <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="implementados modelos do django, implementado QuerySet e migrações, executados testes com e sem migrações, criados modelos nos testes&#10;&#10;close #66, close #67, close #69, close #70">
+      <change afterPath="$PROJECT_DIR$/sitedevpro/aperitivos/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sitedevpro/aperitivos/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sitedevpro/aperitivos/tests/tests_indice.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/aperitivos/tests/test_indice.py" afterDir="false" />
@@ -473,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677243444178</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="implementados modelos do django, implementado QuerySet e migrações, executados testes com e sem migrações, criados modelos nos testes&#10;&#10;close #66, close #67, close #69, close #70">
+      <created>1677322882550</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1677322882550</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -509,6 +518,7 @@
     <MESSAGE value="configurados vídeos pelo slug, adicionados filtros, lista de vídeos iterada com o laço for&#10;&#10;close #56, close #57, close #58" />
     <MESSAGE value="adicionados acesso a atributos e a métodos nos templates.&#10;&#10;close #60, close #61" />
     <MESSAGE value="Instalado postgreSQL usando o docker, configurado acesso local ao postgres &#10;&#10;close #63, close #64" />
-    <option name="LAST_COMMIT_MESSAGE" value="Instalado postgreSQL usando o docker, configurado acesso local ao postgres &#10;&#10;close #63, close #64" />
+    <MESSAGE value="implementados modelos do django, implementado QuerySet e migrações, executados testes com e sem migrações, criados modelos nos testes&#10;&#10;close #66, close #67, close #69, close #70" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementados modelos do django, implementado QuerySet e migrações, executados testes com e sem migrações, criados modelos nos testes&#10;&#10;close #66, close #67, close #69, close #70" />
   </component>
 </project>
