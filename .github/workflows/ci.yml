@@ -12,7 +12,7 @@ jobs:
   tests:
     runs-on: ubuntu-latest
     env:
-      DATABASE_URL: postgres://sitedevpro:devpro@localhost:5434/devpro
+      DATABASE_URL: postgres://sitedevpro:sitedevpro@localhost:5434/sitedevpro
 
     services:
       postgres:
