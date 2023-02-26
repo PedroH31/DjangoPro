@@ -52,7 +52,7 @@ INSTALLED_APPS = [
     'sitedevpro.base',
     'sitedevpro.aperitivos',
     'sitedevpro.modulos',
-
+    'ordered_model',
 ]
 
 MIDDLEWARE = [
