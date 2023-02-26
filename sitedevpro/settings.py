@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'sitedevpro.base',
     'sitedevpro.aperitivos',
+    'sitedevpro.modulos',
 
 ]
 
@@ -77,6 +78,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'sitedevpro.modulos.context_processors.listar_modulos',
             ],
         },
     },
