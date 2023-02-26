@@ -21,6 +21,3 @@ django-debug-toolbar==3.8.1
 codecov==2.1.12
 model-mommy==2.0.0
 django-ordered-model==3.6
-
-
-
