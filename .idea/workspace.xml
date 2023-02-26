@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="implementados modelos do django, implementado QuerySet e migrações, executados testes com e sem migrações, criados modelos nos testes&#10;&#10;close #66, close #67, close #69, close #70">
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+    <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="criada aba de módulos, criado teste de título para a aba de módulos, criada fachada com regras de negócio, adicionado processador de contexto&#10;&#10;close #75, close #76, close #77, close #78">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitedevpro/aperitivos/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitedevpro/aperitivos/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/aperitivos/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitedevpro/aperitivos/tests/test_indice.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/aperitivos/tests/test_indice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitedevpro/aperitivos/tests/test_video.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/aperitivos/tests/test_video.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitedevpro/aperitivos/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/aperitivos/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitedevpro/modulos/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/modulos/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitedevpro/modulos/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/modulos/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitedevpro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,37 +60,85 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/Pedro/PycharmProjects/DjangoPro/sitedevpro&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/Pedro/PycharmProjects/DjangoPro/sitedevpro/modulos/tests&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sitedevpro/modulos/tests" />
       <recent name="$PROJECT_DIR$/sitedevpro/aperitivos/templates/aperitivos" />
       <recent name="$PROJECT_DIR$/sitedevpro/aperitivos/tests" />
       <recent name="$PROJECT_DIR$/sitedevpro/base/templates/base" />
       <recent name="$PROJECT_DIR$/sitedevpro/base/static/img" />
-      <recent name="$PROJECT_DIR$/sitedevpro/base/static/js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/sitedevpro/aperitivos/tests" />
       <recent name="$PROJECT_DIR$/sitedevpro/base/templates/base" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_video.py">
-    <configuration name="pytest in test_indice.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.testar tudo com migrações">
+    <configuration name="pytest for test_aba_de_modulos.test_titulos_dos_modulos" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="DjangoPro" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sitedevpro/aperitivos/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sitedevpro/modulos/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/sitedevpro/aperitivos/tests/test_indice.py&quot;" />
+      <option name="_new_target" value="&quot;test_aba_de_modulos.test_titulos_dos_modulos&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_facade.test_listar_modulos_ordenados" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="DjangoPro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sitedevpro/modulos/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_facade.test_listar_modulos_ordenados&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_aba_de_modulos.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="DjangoPro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sitedevpro/modulos/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/sitedevpro/modulos/tests/test_aba_de_modulos.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_facade.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="DjangoPro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sitedevpro/modulos/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/sitedevpro/modulos/tests/test_facade.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -148,13 +193,19 @@
     <list>
       <item itemvalue="Python tests.testar tudo sem migrações" />
       <item itemvalue="Python tests.testar tudo com migrações" />
-      <item itemvalue="Python tests.pytest in test_indice.py" />
+      <item itemvalue="Python tests.pytest in test_aba_de_modulos.py" />
+      <item itemvalue="Python tests.pytest for test_aba_de_modulos.test_titulos_dos_modulos" />
+      <item itemvalue="Python tests.pytest for test_facade.test_listar_modulos_ordenados" />
+      <item itemvalue="Python tests.pytest in test_facade.py" />
       <item itemvalue="Python tests.pytest in test_video.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in test_aba_de_modulos.py" />
+        <item itemvalue="Python tests.pytest for test_facade.test_listar_modulos_ordenados" />
+        <item itemvalue="Python tests.pytest in test_facade.py" />
+        <item itemvalue="Python tests.pytest for test_aba_de_modulos.test_titulos_dos_modulos" />
         <item itemvalue="Python tests.pytest in test_video.py" />
-        <item itemvalue="Python tests.pytest in test_indice.py" />
       </list>
     </recent_temporary>
   </component>
@@ -166,34 +217,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675333342220</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Implementado github actions, pytest e codecov&#10;&#10;close #1, #2">
-      <created>1675340558026</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1675340558026</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Criada app base&#10;&#10;close #2, close #4">
-      <created>1675426381400</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1675426381400</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Criada app base&#10;&#10;close #2, close #4">
-      <created>1675426398145</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1675426398145</updated>
-    </task>
-    <task id="LOCAL-00005" summary="implementada entrega contínua no fly.io com o github actions&#10;&#10;close #7">
-      <created>1675512348895</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1675512348895</updated>
     </task>
     <task id="LOCAL-00006" summary="implementada entrega contínua no fly.io com o github actions&#10;&#10;close #7">
       <created>1675512491616</created>
@@ -510,7 +533,35 @@
       <option name="project" value="LOCAL" />
       <updated>1677323087843</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="criada aba de módulos, criado teste de título para a aba de módulos, criada fachada com regras de negócio, adicionado processador de contexto&#10;&#10;close #75, close #76, close #77, close #78">
+      <created>1677420314760</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1677420314761</updated>
+    </task>
+    <task id="LOCAL-00052" summary="criada aba de módulos, criado teste de título para a aba de módulos, criada fachada com regras de negócio, adicionado processador de contexto&#10;&#10;close #75, close #76, close #77, close #78">
+      <created>1677420458663</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1677420458664</updated>
+    </task>
+    <task id="LOCAL-00053" summary="criada aba de módulos, criado teste de título para a aba de módulos, criada fachada com regras de negócio, adicionado processador de contexto&#10;&#10;close #75, close #76, close #77, close #78">
+      <created>1677420559954</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1677420559954</updated>
+    </task>
+    <task id="LOCAL-00054" summary="criada aba de módulos, criado teste de título para a aba de módulos, criada fachada com regras de negócio, adicionado processador de contexto&#10;&#10;close #75, close #76, close #77, close #78">
+      <created>1677421067929</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1677421067929</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,6 +598,8 @@
     <MESSAGE value="adicionados acesso a atributos e a métodos nos templates.&#10;&#10;close #60, close #61" />
     <MESSAGE value="Instalado postgreSQL usando o docker, configurado acesso local ao postgres &#10;&#10;close #63, close #64" />
     <MESSAGE value="implementados modelos do django, implementado QuerySet e migrações, executados testes com e sem migrações, criados modelos nos testes&#10;&#10;close #66, close #67, close #69, close #70" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementados modelos do django, implementado QuerySet e migrações, executados testes com e sem migrações, criados modelos nos testes&#10;&#10;close #66, close #67, close #69, close #70" />
+    <MESSAGE value="criados modelos automáticos com o model_mommy, finalizados testes de vídeo e criadas migrações&#10;&#10;close #72, close #73" />
+    <MESSAGE value="criada aba de módulos, criado teste de título para a aba de módulos, criada fachada com regras de negócio, adicionado processador de contexto&#10;&#10;close #75, close #76, close #77, close #78" />
+    <option name="LAST_COMMIT_MESSAGE" value="criada aba de módulos, criado teste de título para a aba de módulos, criada fachada com regras de negócio, adicionado processador de contexto&#10;&#10;close #75, close #76, close #77, close #78" />
   </component>
 </project>
