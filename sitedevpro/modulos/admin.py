@@ -7,3 +7,4 @@ from sitedevpro.modulos.models import Modulo
 @admin.register(Modulo)
 class ModuloAdmin(OrderedModelAdmin):
     list_display = ('titulo', 'publico')
+    prepopulated_fields = {'slug': ('titulo',)}

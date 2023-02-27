@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="adicionada lib django-ordered-models, configurado models e admin&#10;&#10;close #80">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitedevpro/modulos/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/modulos/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitedevpro/modulos/tests/test_aba_de_modulos.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/modulos/tests/test_aba_de_modulos.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +21,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="80" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -214,13 +215,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675333342220</updated>
-    </task>
-    <task id="LOCAL-00007" summary="implementada entrega contínua no fly.io com o github actions&#10;&#10;close #7">
-      <created>1675512500663</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1675512500663</updated>
     </task>
     <task id="LOCAL-00008" summary="implementada entrega contínua no fly.io com o github actions&#10;&#10;close #7">
       <created>1675512770742</created>
@@ -558,7 +552,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677424047770</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="adicionada lib django-ordered-models, configurado models e admin&#10;&#10;close #80">
+      <created>1677493006145</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1677493006145</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -573,7 +574,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implementado github actions, pytest e codecov&#10;&#10;close #1, #2" />
     <MESSAGE value="Criada app base&#10;&#10;close #2, close #4" />
     <MESSAGE value="implementada entrega contínua no fly.io com o github actions&#10;&#10;close #7" />
     <MESSAGE value="criados testes com o pytest-django&#10;close #6" />
@@ -598,6 +598,7 @@
     <MESSAGE value="criados modelos automáticos com o model_mommy, finalizados testes de vídeo e criadas migrações&#10;&#10;close #72, close #73" />
     <MESSAGE value="criada aba de módulos, criado teste de título para a aba de módulos, criada fachada com regras de negócio, adicionado processador de contexto&#10;&#10;close #75, close #76, close #77, close #78" />
     <MESSAGE value="consertando conflito de versão" />
-    <option name="LAST_COMMIT_MESSAGE" value="consertando conflito de versão" />
+    <MESSAGE value="adicionada lib django-ordered-models, configurado models e admin&#10;&#10;close #80" />
+    <option name="LAST_COMMIT_MESSAGE" value="adicionada lib django-ordered-models, configurado models e admin&#10;&#10;close #80" />
   </component>
 </project>
