@@ -1,2 +1,9 @@
+from django.shortcuts import render
+
+from sitedevpro.modulos import facade
+
+
 def detalhe(request, slug):
-    pass
+    modulo = facade.encontrar_modulo(slug)
+    aulas = facade.listar_aulas_de_modulo_ordenadas(modulo)
+    return render(request, 'modulos/modulo_detalhe.html', {'modulo': modulo, 'aulas': aulas})
