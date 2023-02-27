@@ -22,6 +22,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('sitedevpro.base.urls')),
     path('aperitivos/', include('sitedevpro.aperitivos.urls')),
+    path('modulos', include('sitedevpro.modulos.urls')),
 ]
 
 if settings.DEBUG:
