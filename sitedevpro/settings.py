@@ -53,6 +53,7 @@ INSTALLED_APPS = [
     'sitedevpro.aperitivos',
     'sitedevpro.modulos',
     'ordered_model',
+    'django_extensions',
 ]
 
 MIDDLEWARE = [

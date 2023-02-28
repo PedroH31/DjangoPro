@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="adicionadas colunas nas tabelas&#10;&#10;close #93" />
+    <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="adicionadas colunas nas tabelas&#10;&#10;close #93">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitedevpro/modulos/templates/modulos/aula_detalhe.html" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/modulos/templates/modulos/aula_detalhe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitedevpro/modulos/tests/test_aula_detalhe.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/modulos/tests/test_aula_detalhe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitedevpro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/settings.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +80,23 @@
       <recent name="$PROJECT_DIR$/sitedevpro/base/templates/base" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.testar tudo com migrações">
+  <component name="RunManager" selected="Python tests.pytest for test_aula_detalhe.test_modulo_breadcrumb">
+    <configuration name="pytest for test_aula_detalhe.test_modulo_breadcrumb" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="DjangoPro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sitedevpro/modulos/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_aula_detalhe.test_modulo_breadcrumb&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for test_aula_detalhe.test_titulo" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="DjangoPro" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,7 +145,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_facade.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_aula_detalhe.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="DjangoPro" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -133,23 +157,7 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/sitedevpro/modulos/tests/test_facade.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in test_video.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="DjangoPro" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sitedevpro/aperitivos/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/sitedevpro/aperitivos/tests/test_video.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/sitedevpro/modulos/tests/test_aula_detalhe.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -188,19 +196,19 @@
     <list>
       <item itemvalue="Python tests.testar tudo sem migrações" />
       <item itemvalue="Python tests.testar tudo com migrações" />
+      <item itemvalue="Python tests.pytest for test_aula_detalhe.test_modulo_breadcrumb" />
+      <item itemvalue="Python tests.pytest in test_aula_detalhe.py" />
       <item itemvalue="Python tests.pytest for test_aula_detalhe.test_youtube" />
       <item itemvalue="Python tests.pytest for test_aula_detalhe.test_titulo" />
       <item itemvalue="Python tests.pytest for test_modulo_detalhe.test_aulas_links" />
-      <item itemvalue="Python tests.pytest in test_facade.py" />
-      <item itemvalue="Python tests.pytest in test_video.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_aula_detalhe.test_modulo_breadcrumb" />
+        <item itemvalue="Python tests.pytest in test_aula_detalhe.py" />
         <item itemvalue="Python tests.pytest for test_aula_detalhe.test_youtube" />
         <item itemvalue="Python tests.pytest for test_aula_detalhe.test_titulo" />
         <item itemvalue="Python tests.pytest for test_modulo_detalhe.test_aulas_links" />
-        <item itemvalue="Python tests.pytest in test_video.py" />
-        <item itemvalue="Python tests.pytest in test_facade.py" />
       </list>
     </recent_temporary>
   </component>
