@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="adicionadas colunas nas tabelas&#10;&#10;close #93">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitedevpro/modulos/templates/modulos/aula_detalhe.html" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/modulos/templates/modulos/aula_detalhe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitedevpro/modulos/tests/test_aula_detalhe.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/modulos/tests/test_aula_detalhe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitedevpro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="adicionado IPython e Django-Extensions para tunar o shell do django, Implementado um breadcrumb e corrigida sua ineficiência com o comando select_related&#10;&#10;close #95, close #96" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -220,13 +212,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675333342220</updated>
-    </task>
-    <task id="LOCAL-00011" summary="criados testes com o pytest-django&#10;close #6">
-      <created>1675516146968</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1675516146968</updated>
     </task>
     <task id="LOCAL-00012" summary="integrada cobertura de testes&#10;close #9">
       <created>1675683353414</created>
@@ -564,7 +549,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677587195083</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="adicionado IPython e Django-Extensions para tunar o shell do django, Implementado um breadcrumb e corrigida sua ineficiência com o comando select_related&#10;&#10;close #95, close #96">
+      <created>1677591084821</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1677591084822</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -579,7 +571,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="integrada cobertura de testes&#10;close #9" />
     <MESSAGE value="integrada lib python decouple e configurado debug da aplicação.&#10;close #12" />
     <MESSAGE value="Configurado endereço do banco de dados direcionado ao PostgreSQL&#10;close #16" />
     <MESSAGE value="configurado PostgreSQL no servidor de integração contínua.&#10;&#10;close #19" />
@@ -604,6 +595,7 @@
     <MESSAGE value="Criado relacionamento entre módulos e aulas, acessada relação com atributo dinâmico set&#10;&#10;close #86, close #87" />
     <MESSAGE value="Criada página de detalhe da aula, criados links para as aulas&#10;&#10;close #89, close #90, close #91" />
     <MESSAGE value="adicionadas colunas nas tabelas&#10;&#10;close #93" />
-    <option name="LAST_COMMIT_MESSAGE" value="adicionadas colunas nas tabelas&#10;&#10;close #93" />
+    <MESSAGE value="adicionado IPython e Django-Extensions para tunar o shell do django, Implementado um breadcrumb e corrigida sua ineficiência com o comando select_related&#10;&#10;close #95, close #96" />
+    <option name="LAST_COMMIT_MESSAGE" value="adicionado IPython e Django-Extensions para tunar o shell do django, Implementado um breadcrumb e corrigida sua ineficiência com o comando select_related&#10;&#10;close #95, close #96" />
   </component>
 </project>
