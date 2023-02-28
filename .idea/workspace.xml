@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="Construída página de detalhes de módulo" />
+    <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="Criada página de detalhe da aula, criados links para as aulas&#10;&#10;close #89, close #90, close #91" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +18,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="83" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -72,8 +72,8 @@
       <recent name="$PROJECT_DIR$/sitedevpro/base/templates/base" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.testar tudo com migrações">
-    <configuration name="pytest for test_aba_de_modulos.test_titulos_dos_modulos" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest for test_aula_detalhe.test_titulo">
+    <configuration name="pytest for test_aula_detalhe.test_titulo" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="DjangoPro" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -85,7 +85,7 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_aba_de_modulos.test_titulos_dos_modulos&quot;" />
+      <option name="_new_target" value="&quot;test_aula_detalhe.test_titulo&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -105,7 +105,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_aba_de_modulos.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_modulo_detalhe.test_aulas_links" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="DjangoPro" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -117,8 +117,8 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/sitedevpro/modulos/tests/test_aba_de_modulos.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_modulo_detalhe.test_aulas_links&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest in test_facade.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -188,19 +188,19 @@
     <list>
       <item itemvalue="Python tests.testar tudo sem migrações" />
       <item itemvalue="Python tests.testar tudo com migrações" />
-      <item itemvalue="Python tests.pytest in test_aba_de_modulos.py" />
-      <item itemvalue="Python tests.pytest for test_aba_de_modulos.test_titulos_dos_modulos" />
+      <item itemvalue="Python tests.pytest for test_aula_detalhe.test_titulo" />
+      <item itemvalue="Python tests.pytest for test_modulo_detalhe.test_aulas_links" />
       <item itemvalue="Python tests.pytest for test_facade.test_listar_modulos_ordenados" />
       <item itemvalue="Python tests.pytest in test_facade.py" />
       <item itemvalue="Python tests.pytest in test_video.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_aula_detalhe.test_titulo" />
+        <item itemvalue="Python tests.pytest for test_modulo_detalhe.test_aulas_links" />
         <item itemvalue="Python tests.pytest in test_video.py" />
         <item itemvalue="Python tests.pytest in test_facade.py" />
         <item itemvalue="Python tests.pytest for test_facade.test_listar_modulos_ordenados" />
-        <item itemvalue="Python tests.pytest for test_aba_de_modulos.test_titulos_dos_modulos" />
-        <item itemvalue="Python tests.pytest in test_aba_de_modulos.py" />
       </list>
     </recent_temporary>
   </component>
@@ -212,20 +212,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675333342220</updated>
-    </task>
-    <task id="LOCAL-00008" summary="implementada entrega contínua no fly.io com o github actions&#10;&#10;close #7">
-      <created>1675512770742</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1675512770742</updated>
-    </task>
-    <task id="LOCAL-00009" summary="criados testes com o pytest-django&#10;close #6">
-      <created>1675514911686</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1675514911686</updated>
     </task>
     <task id="LOCAL-00010" summary="criados testes com o pytest-django&#10;close #6">
       <created>1675516136437</created>
@@ -556,7 +542,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677493006145</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Criado relacionamento entre módulos e aulas, acessada relação com atributo dinâmico set&#10;&#10;close #86, close #87">
+      <created>1677508681513</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1677508681514</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Criada página de detalhe da aula, criados links para as aulas&#10;&#10;close #89, close #90, close #91">
+      <created>1677584465222</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1677584465222</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -571,8 +571,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Criada app base&#10;&#10;close #2, close #4" />
-    <MESSAGE value="implementada entrega contínua no fly.io com o github actions&#10;&#10;close #7" />
     <MESSAGE value="criados testes com o pytest-django&#10;close #6" />
     <MESSAGE value="integrada cobertura de testes&#10;close #9" />
     <MESSAGE value="integrada lib python decouple e configurado debug da aplicação.&#10;close #12" />
@@ -596,6 +594,8 @@
     <MESSAGE value="criada aba de módulos, criado teste de título para a aba de módulos, criada fachada com regras de negócio, adicionado processador de contexto&#10;&#10;close #75, close #76, close #77, close #78" />
     <MESSAGE value="consertando conflito de versão" />
     <MESSAGE value="adicionada lib django-ordered-models, configurado models e admin&#10;&#10;close #80" />
-    <option name="LAST_COMMIT_MESSAGE" value="adicionada lib django-ordered-models, configurado models e admin&#10;&#10;close #80" />
+    <MESSAGE value="Criado relacionamento entre módulos e aulas, acessada relação com atributo dinâmico set&#10;&#10;close #86, close #87" />
+    <MESSAGE value="Criada página de detalhe da aula, criados links para as aulas&#10;&#10;close #89, close #90, close #91" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criada página de detalhe da aula, criados links para as aulas&#10;&#10;close #89, close #90, close #91" />
   </component>
 </project>
