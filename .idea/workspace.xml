@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="Criado relacionamento entre módulos e aulas, acessada relação com atributo dinâmico set&#10;&#10;close #86, close #87">
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitedevpro/modulos/facade.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/modulos/facade.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitedevpro/modulos/templates/modulos/modulo_detalhe.html" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/modulos/templates/modulos/modulo_detalhe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitedevpro/modulos/tests/test_modulo_detalhe.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/modulos/tests/test_modulo_detalhe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitedevpro/modulos/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/modulos/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitedevpro/modulos/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/modulos/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="Criada página de detalhe da aula, criados links para as aulas&#10;&#10;close #89, close #90, close #91" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -220,13 +212,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675333342220</updated>
-    </task>
-    <task id="LOCAL-00009" summary="criados testes com o pytest-django&#10;close #6">
-      <created>1675514911686</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1675514911686</updated>
     </task>
     <task id="LOCAL-00010" summary="criados testes com o pytest-django&#10;close #6">
       <created>1675516136437</created>
@@ -564,7 +549,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677508681514</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Criada página de detalhe da aula, criados links para as aulas&#10;&#10;close #89, close #90, close #91">
+      <created>1677584465222</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1677584465222</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -579,7 +571,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="implementada entrega contínua no fly.io com o github actions&#10;&#10;close #7" />
     <MESSAGE value="criados testes com o pytest-django&#10;close #6" />
     <MESSAGE value="integrada cobertura de testes&#10;close #9" />
     <MESSAGE value="integrada lib python decouple e configurado debug da aplicação.&#10;close #12" />
@@ -604,6 +595,7 @@
     <MESSAGE value="consertando conflito de versão" />
     <MESSAGE value="adicionada lib django-ordered-models, configurado models e admin&#10;&#10;close #80" />
     <MESSAGE value="Criado relacionamento entre módulos e aulas, acessada relação com atributo dinâmico set&#10;&#10;close #86, close #87" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criado relacionamento entre módulos e aulas, acessada relação com atributo dinâmico set&#10;&#10;close #86, close #87" />
+    <MESSAGE value="Criada página de detalhe da aula, criados links para as aulas&#10;&#10;close #89, close #90, close #91" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criada página de detalhe da aula, criados links para as aulas&#10;&#10;close #89, close #90, close #91" />
   </component>
 </project>
