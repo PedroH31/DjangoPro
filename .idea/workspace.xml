@@ -191,13 +191,13 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.pytest for test_aula_detalhe.test_modulo_breadcrumb" />
-      <item itemvalue="Python tests.pytest for test_modulos_indice.test_indice_disponivel" />
-      <item itemvalue="Python tests.pytest in test_aula_detalhe.py" />
-      <item itemvalue="Python tests.pytest in test_indice.py" />
-      <item itemvalue="Python tests.pytest in test_modulos_indice.py" />
-      <item itemvalue="Python tests.testar tudo com migrações" />
       <item itemvalue="Python tests.testar tudo sem migrações" />
+      <item itemvalue="Python tests.testar tudo com migrações" />
+      <item itemvalue="Python tests.pytest in test_indice.py" />
+      <item itemvalue="Python tests.pytest for test_modulos_indice.test_indice_disponivel" />
+      <item itemvalue="Python tests.pytest in test_modulos_indice.py" />
+      <item itemvalue="Python tests.pytest for test_aula_detalhe.test_modulo_breadcrumb" />
+      <item itemvalue="Python tests.pytest in test_aula_detalhe.py" />
     </list>
     <recent_temporary>
       <list>
