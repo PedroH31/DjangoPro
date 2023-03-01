@@ -54,6 +54,7 @@ INSTALLED_APPS = [
     'sitedevpro.modulos',
     'ordered_model',
     'django_extensions',
+    'sitedevpro.turmas',
 ]
 
 MIDDLEWARE = [

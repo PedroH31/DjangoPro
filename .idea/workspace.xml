@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="criada página de indices para os módulos, implementado método prefetch_related e objeto Prefetch para diminuir o número de queries a partir da faixada&#10;&#10;close #99">
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitedevpro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitedevpro/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,29 +55,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/Pedro/PycharmProjects/DjangoPro/sitedevpro/modulos/templates/modulos&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/Pedro/PycharmProjects/DjangoPro/sitedevpro/turmas/templates/turmas",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sitedevpro/turmas/templates/turmas" />
+      <recent name="$PROJECT_DIR$/sitedevpro/turmas" />
       <recent name="$PROJECT_DIR$/sitedevpro/modulos/templates/modulos" />
       <recent name="$PROJECT_DIR$/sitedevpro/modulos/tests" />
       <recent name="$PROJECT_DIR$/sitedevpro/modulos" />
-      <recent name="$PROJECT_DIR$/sitedevpro/aperitivos/templates/aperitivos" />
-      <recent name="$PROJECT_DIR$/sitedevpro/aperitivos/tests" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/sitedevpro/aperitivos/tests" />
       <recent name="$PROJECT_DIR$/sitedevpro/base/templates/base" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_modulos_indice.py">
+  <component name="RunManager" selected="Python tests.pytest in test_indice.py">
     <configuration name="pytest for test_aula_detalhe.test_modulo_breadcrumb" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="DjangoPro" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -88,22 +91,6 @@
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_aula_detalhe.test_modulo_breadcrumb&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_aula_detalhe.test_youtube" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="DjangoPro" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sitedevpro/modulos/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_aula_detalhe.test_youtube&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -136,6 +123,22 @@
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/sitedevpro/modulos/tests/test_aula_detalhe.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_indice.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="DjangoPro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sitedevpro/turmas/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/sitedevpro/turmas/tests/test_indice.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -190,19 +193,19 @@
     <list>
       <item itemvalue="Python tests.testar tudo sem migrações" />
       <item itemvalue="Python tests.testar tudo com migrações" />
+      <item itemvalue="Python tests.pytest in test_indice.py" />
       <item itemvalue="Python tests.pytest for test_modulos_indice.test_indice_disponivel" />
       <item itemvalue="Python tests.pytest in test_modulos_indice.py" />
       <item itemvalue="Python tests.pytest for test_aula_detalhe.test_modulo_breadcrumb" />
       <item itemvalue="Python tests.pytest in test_aula_detalhe.py" />
-      <item itemvalue="Python tests.pytest for test_aula_detalhe.test_youtube" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in test_indice.py" />
         <item itemvalue="Python tests.pytest in test_modulos_indice.py" />
         <item itemvalue="Python tests.pytest for test_modulos_indice.test_indice_disponivel" />
         <item itemvalue="Python tests.pytest for test_aula_detalhe.test_modulo_breadcrumb" />
         <item itemvalue="Python tests.pytest in test_aula_detalhe.py" />
-        <item itemvalue="Python tests.pytest for test_aula_detalhe.test_youtube" />
       </list>
     </recent_temporary>
   </component>
