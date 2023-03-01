@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="adicionado IPython e Django-Extensions para tunar o shell do django, Implementado um breadcrumb e corrigida sua ineficiência com o comando select_related&#10;&#10;close #95, close #96">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitedevpro/modulos/facade.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/modulos/facade.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitedevpro/modulos/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/modulos/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitedevpro/modulos/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/modulos/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="criada página de indices para os módulos, implementado método prefetch_related e objeto Prefetch para diminuir o número de queries a partir da faixada&#10;&#10;close #99" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -217,20 +212,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675333342220</updated>
-    </task>
-    <task id="LOCAL-00012" summary="integrada cobertura de testes&#10;close #9">
-      <created>1675683353414</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1675683353414</updated>
-    </task>
-    <task id="LOCAL-00013" summary="integrada cobertura de testes&#10;close #9">
-      <created>1675683564301</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1675683564301</updated>
     </task>
     <task id="LOCAL-00014" summary="integrada cobertura de testes&#10;close #9">
       <created>1675683742095</created>
@@ -561,7 +542,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677591084822</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="criada página de indices para os módulos, implementado método prefetch_related e objeto Prefetch para diminuir o número de queries a partir da faixada&#10;&#10;close #99">
+      <created>1677598611255</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1677598611255</updated>
+    </task>
+    <task id="LOCAL-00062" summary="criada página de indices para os módulos, implementado método prefetch_related e objeto Prefetch para diminuir o número de queries a partir da faixada&#10;&#10;close #99">
+      <created>1677598831511</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1677598831511</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -576,7 +571,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="integrada lib python decouple e configurado debug da aplicação.&#10;close #12" />
     <MESSAGE value="Configurado endereço do banco de dados direcionado ao PostgreSQL&#10;close #16" />
     <MESSAGE value="configurado PostgreSQL no servidor de integração contínua.&#10;&#10;close #19" />
     <MESSAGE value="coletados arquivos estáticos, configurado o amazon AWS e configurada lib django-s3-folder-storage&#10;&#10;close #21 close #22 close #23" />
@@ -601,6 +595,7 @@
     <MESSAGE value="Criada página de detalhe da aula, criados links para as aulas&#10;&#10;close #89, close #90, close #91" />
     <MESSAGE value="adicionadas colunas nas tabelas&#10;&#10;close #93" />
     <MESSAGE value="adicionado IPython e Django-Extensions para tunar o shell do django, Implementado um breadcrumb e corrigida sua ineficiência com o comando select_related&#10;&#10;close #95, close #96" />
-    <option name="LAST_COMMIT_MESSAGE" value="adicionado IPython e Django-Extensions para tunar o shell do django, Implementado um breadcrumb e corrigida sua ineficiência com o comando select_related&#10;&#10;close #95, close #96" />
+    <MESSAGE value="criada página de indices para os módulos, implementado método prefetch_related e objeto Prefetch para diminuir o número de queries a partir da faixada&#10;&#10;close #99" />
+    <option name="LAST_COMMIT_MESSAGE" value="criada página de indices para os módulos, implementado método prefetch_related e objeto Prefetch para diminuir o número de queries a partir da faixada&#10;&#10;close #99" />
   </component>
 </project>
