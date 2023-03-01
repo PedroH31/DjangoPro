@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="adicionadas colunas nas tabelas&#10;&#10;close #93">
+    <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="adicionado IPython e Django-Extensions para tunar o shell do django, Implementado um breadcrumb e corrigida sua ineficiência com o comando select_related&#10;&#10;close #95, close #96">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitedevpro/modulos/templates/modulos/aula_detalhe.html" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/modulos/templates/modulos/aula_detalhe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitedevpro/modulos/tests/test_aula_detalhe.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/modulos/tests/test_aula_detalhe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitedevpro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitedevpro/modulos/facade.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/modulos/facade.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitedevpro/modulos/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/modulos/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitedevpro/modulos/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/modulos/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,15 +55,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/Pedro/PycharmProjects/DjangoPro/sitedevpro/modulos/templates/modulos&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/Pedro/PycharmProjects/DjangoPro/sitedevpro/modulos/templates/modulos",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/sitedevpro/modulos/templates/modulos" />
@@ -80,7 +77,7 @@
       <recent name="$PROJECT_DIR$/sitedevpro/base/templates/base" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_aula_detalhe.test_modulo_breadcrumb">
+  <component name="RunManager" selected="Python tests.pytest in test_modulos_indice.py">
     <configuration name="pytest for test_aula_detalhe.test_modulo_breadcrumb" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="DjangoPro" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -94,22 +91,6 @@
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_aula_detalhe.test_modulo_breadcrumb&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_aula_detalhe.test_titulo" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="DjangoPro" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sitedevpro/modulos/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_aula_detalhe.test_titulo&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -129,7 +110,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_modulo_detalhe.test_aulas_links" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_modulos_indice.test_indice_disponivel" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="DjangoPro" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -141,7 +122,7 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_modulo_detalhe.test_aulas_links&quot;" />
+      <option name="_new_target" value="&quot;test_modulos_indice.test_indice_disponivel&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -158,6 +139,22 @@
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/sitedevpro/modulos/tests/test_aula_detalhe.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_modulos_indice.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="DjangoPro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sitedevpro/modulos/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/sitedevpro/modulos/tests/test_modulos_indice.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -196,19 +193,19 @@
     <list>
       <item itemvalue="Python tests.testar tudo sem migrações" />
       <item itemvalue="Python tests.testar tudo com migrações" />
+      <item itemvalue="Python tests.pytest for test_modulos_indice.test_indice_disponivel" />
+      <item itemvalue="Python tests.pytest in test_modulos_indice.py" />
       <item itemvalue="Python tests.pytest for test_aula_detalhe.test_modulo_breadcrumb" />
       <item itemvalue="Python tests.pytest in test_aula_detalhe.py" />
       <item itemvalue="Python tests.pytest for test_aula_detalhe.test_youtube" />
-      <item itemvalue="Python tests.pytest for test_aula_detalhe.test_titulo" />
-      <item itemvalue="Python tests.pytest for test_modulo_detalhe.test_aulas_links" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in test_modulos_indice.py" />
+        <item itemvalue="Python tests.pytest for test_modulos_indice.test_indice_disponivel" />
         <item itemvalue="Python tests.pytest for test_aula_detalhe.test_modulo_breadcrumb" />
         <item itemvalue="Python tests.pytest in test_aula_detalhe.py" />
         <item itemvalue="Python tests.pytest for test_aula_detalhe.test_youtube" />
-        <item itemvalue="Python tests.pytest for test_aula_detalhe.test_titulo" />
-        <item itemvalue="Python tests.pytest for test_modulo_detalhe.test_aulas_links" />
       </list>
     </recent_temporary>
   </component>
@@ -220,13 +217,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675333342220</updated>
-    </task>
-    <task id="LOCAL-00011" summary="criados testes com o pytest-django&#10;close #6">
-      <created>1675516146968</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1675516146968</updated>
     </task>
     <task id="LOCAL-00012" summary="integrada cobertura de testes&#10;close #9">
       <created>1675683353414</created>
@@ -564,7 +554,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677587195083</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="adicionado IPython e Django-Extensions para tunar o shell do django, Implementado um breadcrumb e corrigida sua ineficiência com o comando select_related&#10;&#10;close #95, close #96">
+      <created>1677591084821</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1677591084822</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -579,7 +576,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="integrada cobertura de testes&#10;close #9" />
     <MESSAGE value="integrada lib python decouple e configurado debug da aplicação.&#10;close #12" />
     <MESSAGE value="Configurado endereço do banco de dados direcionado ao PostgreSQL&#10;close #16" />
     <MESSAGE value="configurado PostgreSQL no servidor de integração contínua.&#10;&#10;close #19" />
@@ -604,6 +600,7 @@
     <MESSAGE value="Criado relacionamento entre módulos e aulas, acessada relação com atributo dinâmico set&#10;&#10;close #86, close #87" />
     <MESSAGE value="Criada página de detalhe da aula, criados links para as aulas&#10;&#10;close #89, close #90, close #91" />
     <MESSAGE value="adicionadas colunas nas tabelas&#10;&#10;close #93" />
-    <option name="LAST_COMMIT_MESSAGE" value="adicionadas colunas nas tabelas&#10;&#10;close #93" />
+    <MESSAGE value="adicionado IPython e Django-Extensions para tunar o shell do django, Implementado um breadcrumb e corrigida sua ineficiência com o comando select_related&#10;&#10;close #95, close #96" />
+    <option name="LAST_COMMIT_MESSAGE" value="adicionado IPython e Django-Extensions para tunar o shell do django, Implementado um breadcrumb e corrigida sua ineficiência com o comando select_related&#10;&#10;close #95, close #96" />
   </component>
 </project>
