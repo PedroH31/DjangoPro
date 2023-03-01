@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="Implementada funcionalidade de turmas, adicionado campo ManyToManyField&#10;&#10;close #101, close #102" />
+    <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="Implementada funcionalidade de turmas, adicionado campo ManyToManyField&#10;&#10;close #101, close #102">
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitedevpro/turmas/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/turmas/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitedevpro/turmas/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/turmas/models.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="104" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -212,6 +217,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675333342220</updated>
+    </task>
+    <task id="LOCAL-00017" summary="integrada cobertura de testes&#10;close #9">
+      <created>1675684421873</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1675684421873</updated>
     </task>
     <task id="LOCAL-00018" summary="integrada cobertura de testes&#10;close #9">
       <created>1675684927333</created>
@@ -549,14 +561,7 @@
       <option name="project" value="LOCAL" />
       <updated>1677672275312</updated>
     </task>
-    <task id="LOCAL-00066" summary="Criada tabela intermediária, configurado modelo com Model Meta, adicionados modelos relacionados no Admin&#10;&#10;close #104, close #105, close #106">
-      <created>1677676410095</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1677676410095</updated>
-    </task>
-    <option name="localTasksCounter" value="67" />
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -571,6 +576,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="configurado PostgreSQL no servidor de integração contínua.&#10;&#10;close #19" />
     <MESSAGE value="coletados arquivos estáticos, configurado o amazon AWS e configurada lib django-s3-folder-storage&#10;&#10;close #21 close #22 close #23" />
     <MESSAGE value="Configuradas variáveis do AWS e instalada lib Collectfast&#10;&#10;close #25" />
     <MESSAGE value="aplicando migrações no fly.io&#10;&#10;close #30" />
@@ -595,7 +601,6 @@
     <MESSAGE value="adicionado IPython e Django-Extensions para tunar o shell do django, Implementado um breadcrumb e corrigida sua ineficiência com o comando select_related&#10;&#10;close #95, close #96" />
     <MESSAGE value="criada página de indices para os módulos, implementado método prefetch_related e objeto Prefetch para diminuir o número de queries a partir da faixada&#10;&#10;close #99" />
     <MESSAGE value="Implementada funcionalidade de turmas, adicionado campo ManyToManyField&#10;&#10;close #101, close #102" />
-    <MESSAGE value="Criada tabela intermediária, configurado modelo com Model Meta, adicionados modelos relacionados no Admin&#10;&#10;close #104, close #105, close #106" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criada tabela intermediária, configurado modelo com Model Meta, adicionados modelos relacionados no Admin&#10;&#10;close #104, close #105, close #106" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementada funcionalidade de turmas, adicionado campo ManyToManyField&#10;&#10;close #101, close #102" />
   </component>
 </project>
