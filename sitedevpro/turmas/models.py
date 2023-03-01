@@ -8,4 +8,3 @@ class Turma(models.Model):
     inicio = models.DateField()
     fim = models.DateField()
     matriculas = models.ManyToManyField(get_user_model())
-
