@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="Implementada funcionalidade de turmas, adicionado campo ManyToManyField&#10;&#10;close #101, close #102">
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitedevpro/turmas/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/turmas/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitedevpro/turmas/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/turmas/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
