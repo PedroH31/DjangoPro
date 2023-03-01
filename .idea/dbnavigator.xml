@@ -29,6 +29,8 @@
     <filter-actions connection-id="bb988b93-820f-48d6-a521-e2ce55d91487" dataset="public.modulos_modulo" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="bb988b93-820f-48d6-a521-e2ce55d91487" dataset="public.auth_group" active-filter-id="" />
     <filter-actions connection-id="bb988b93-820f-48d6-a521-e2ce55d91487" dataset="public.modulos_aula" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="bb988b93-820f-48d6-a521-e2ce55d91487" dataset="public.turmas_turma_matriculas" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="bb988b93-820f-48d6-a521-e2ce55d91487" dataset="public.turmas_turma" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="bb988b93-820f-48d6-a521-e2ce55d91487" dataset="public.django_migrations" active-filter-id="EMPTY_FILTER" />
   </component>
   <component name="DBNavigator.Project.ExecutionManager">
