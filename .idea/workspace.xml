@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="Implementada funcionalidade de turmas, adicionado campo ManyToManyField&#10;&#10;close #101, close #102">
+    <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="adicionado controle de acesso nas aulas, implementado formulário simples de login, adicionada configuração de redirect de login&#10;&#10;close #109, close #110, close #111">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitedevpro/base/templates/base/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/base/templates/base/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitedevpro/base/tests/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/base/tests/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitedevpro/django_assertions.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/django_assertions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="104" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -57,40 +60,24 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/Pedro/PycharmProjects/DjangoPro/sitedevpro/turmas/templates/turmas&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/Pedro/PycharmProjects/DjangoPro/sitedevpro/base/templates/registration&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sitedevpro/base/templates/registration" />
       <recent name="$PROJECT_DIR$/sitedevpro/turmas/templates/turmas" />
       <recent name="$PROJECT_DIR$/sitedevpro/turmas" />
       <recent name="$PROJECT_DIR$/sitedevpro/modulos/templates/modulos" />
       <recent name="$PROJECT_DIR$/sitedevpro/modulos/tests" />
-      <recent name="$PROJECT_DIR$/sitedevpro/modulos" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/sitedevpro/aperitivos/tests" />
       <recent name="$PROJECT_DIR$/sitedevpro/base/templates/base" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_indice.py">
-    <configuration name="pytest for test_aula_detalhe.test_modulo_breadcrumb" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="DjangoPro" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sitedevpro/modulos/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_aula_detalhe.test_modulo_breadcrumb&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.pytest in test_login.py">
     <configuration name="pytest for test_modulos_indice.test_indice_disponivel" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="DjangoPro" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -136,6 +123,22 @@
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/sitedevpro/turmas/tests/test_indice.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_login.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="DjangoPro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sitedevpro/base/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/sitedevpro/base/tests/test_login.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -188,21 +191,21 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.pytest for test_aula_detalhe.test_modulo_breadcrumb" />
+      <item itemvalue="Python tests.testar tudo com migrações" />
+      <item itemvalue="Python tests.testar tudo sem migrações" />
       <item itemvalue="Python tests.pytest for test_modulos_indice.test_indice_disponivel" />
       <item itemvalue="Python tests.pytest in test_aula_detalhe.py" />
       <item itemvalue="Python tests.pytest in test_indice.py" />
+      <item itemvalue="Python tests.pytest in test_login.py" />
       <item itemvalue="Python tests.pytest in test_modulos_indice.py" />
-      <item itemvalue="Python tests.testar tudo com migrações" />
-      <item itemvalue="Python tests.testar tudo sem migrações" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in test_indice.py" />
+        <item itemvalue="Python tests.pytest in test_login.py" />
         <item itemvalue="Python tests.pytest in test_modulos_indice.py" />
-        <item itemvalue="Python tests.pytest for test_modulos_indice.test_indice_disponivel" />
-        <item itemvalue="Python tests.pytest for test_aula_detalhe.test_modulo_breadcrumb" />
+        <item itemvalue="Python tests.pytest in test_indice.py" />
         <item itemvalue="Python tests.pytest in test_aula_detalhe.py" />
+        <item itemvalue="Python tests.pytest for test_modulos_indice.test_indice_disponivel" />
       </list>
     </recent_temporary>
   </component>
@@ -214,20 +217,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675333342220</updated>
-    </task>
-    <task id="LOCAL-00018" summary="integrada cobertura de testes&#10;close #9">
-      <created>1675684927333</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1675684927333</updated>
-    </task>
-    <task id="LOCAL-00019" summary="integrada cobertura de testes&#10;close #9">
-      <created>1675685075785</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1675685075785</updated>
     </task>
     <task id="LOCAL-00020" summary="integrada cobertura de testes&#10;close #9">
       <created>1675685212273</created>
@@ -558,7 +547,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677676410095</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Criada tabela intermediária, configurado modelo com Model Meta, adicionados modelos relacionados no Admin&#10;&#10;close #104, close #105, close #106">
+      <created>1677676918818</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1677676918818</updated>
+    </task>
+    <task id="LOCAL-00068" summary="adicionado controle de acesso nas aulas, implementado formulário simples de login, adicionada configuração de redirect de login&#10;&#10;close #109, close #110, close #111">
+      <created>1677680724726</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1677680724726</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -573,7 +576,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="coletados arquivos estáticos, configurado o amazon AWS e configurada lib django-s3-folder-storage&#10;&#10;close #21 close #22 close #23" />
     <MESSAGE value="Configuradas variáveis do AWS e instalada lib Collectfast&#10;&#10;close #25" />
     <MESSAGE value="aplicando migrações no fly.io&#10;&#10;close #30" />
     <MESSAGE value="consertado erro no codecov" />
@@ -598,6 +600,7 @@
     <MESSAGE value="criada página de indices para os módulos, implementado método prefetch_related e objeto Prefetch para diminuir o número de queries a partir da faixada&#10;&#10;close #99" />
     <MESSAGE value="Implementada funcionalidade de turmas, adicionado campo ManyToManyField&#10;&#10;close #101, close #102" />
     <MESSAGE value="Criada tabela intermediária, configurado modelo com Model Meta, adicionados modelos relacionados no Admin&#10;&#10;close #104, close #105, close #106" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criada tabela intermediária, configurado modelo com Model Meta, adicionados modelos relacionados no Admin&#10;&#10;close #104, close #105, close #106" />
+    <MESSAGE value="adicionado controle de acesso nas aulas, implementado formulário simples de login, adicionada configuração de redirect de login&#10;&#10;close #109, close #110, close #111" />
+    <option name="LAST_COMMIT_MESSAGE" value="adicionado controle de acesso nas aulas, implementado formulário simples de login, adicionada configuração de redirect de login&#10;&#10;close #109, close #110, close #111" />
   </component>
 </project>

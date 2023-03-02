@@ -23,6 +23,7 @@
     <a class="navbar-brand" href="{% url 'base:home' %}">Python Pro</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
         <span class="navbar-toggler-icon"></span>
+
     </button>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="navbar-nav mr-auto">
@@ -33,12 +34,17 @@
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     {% for modulo in MODULOS %}
-                        <a class="dropdown-item" href="{{modulo.get_absolute_url}}">{{modulo.titulo}}</a>
-                        <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="{{modulo.get_absolute_url}}">{{modulo.titulo}}</a>
+                    <div class="dropdown-divider"></div>
                     {% endfor %}
                 </div>
             </li>
         </ul>
+    {% if user.is_authenticated %}
+
+    {% else %}
+            <a type="button" class="btn btn-light my-2" href="{% url 'login' %}">Entrar</a>
+    {% endif %}
     </div>
 </nav>
 {% block body %}{% endblock body %}
