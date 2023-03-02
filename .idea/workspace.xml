@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="adicionado controle de acesso nas aulas, implementado formulário simples de login, adicionada configuração de redirect de login&#10;&#10;close #109, close #110, close #111">
+    <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="Inserido botão de login, criados testes com o usuário logado&#10;&#10;close #113, close #114">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitedevpro/base/templates/base/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/base/templates/base/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitedevpro/base/tests/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/base/tests/test_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitedevpro/django_assertions.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/django_assertions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitedevpro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,13 +215,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675333342220</updated>
-    </task>
-    <task id="LOCAL-00020" summary="integrada cobertura de testes&#10;close #9">
-      <created>1675685212273</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1675685212273</updated>
     </task>
     <task id="LOCAL-00021" summary="integrada cobertura de testes&#10;close #9">
       <created>1675685550586</created>
@@ -561,7 +552,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677680724726</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="Inserido botão de login, criados testes com o usuário logado&#10;&#10;close #113, close #114">
+      <created>1677755118398</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1677755118398</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -576,7 +574,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Configuradas variáveis do AWS e instalada lib Collectfast&#10;&#10;close #25" />
     <MESSAGE value="aplicando migrações no fly.io&#10;&#10;close #30" />
     <MESSAGE value="consertado erro no codecov" />
     <MESSAGE value="adicionada badge do codecov" />
@@ -601,6 +598,7 @@
     <MESSAGE value="Implementada funcionalidade de turmas, adicionado campo ManyToManyField&#10;&#10;close #101, close #102" />
     <MESSAGE value="Criada tabela intermediária, configurado modelo com Model Meta, adicionados modelos relacionados no Admin&#10;&#10;close #104, close #105, close #106" />
     <MESSAGE value="adicionado controle de acesso nas aulas, implementado formulário simples de login, adicionada configuração de redirect de login&#10;&#10;close #109, close #110, close #111" />
-    <option name="LAST_COMMIT_MESSAGE" value="adicionado controle de acesso nas aulas, implementado formulário simples de login, adicionada configuração de redirect de login&#10;&#10;close #109, close #110, close #111" />
+    <MESSAGE value="Inserido botão de login, criados testes com o usuário logado&#10;&#10;close #113, close #114" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inserido botão de login, criados testes com o usuário logado&#10;&#10;close #113, close #114" />
   </component>
 </project>
