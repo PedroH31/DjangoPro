@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="Inserido botão de login, criados testes com o usuário logado&#10;&#10;close #113, close #114">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/cd.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/cd.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitedevpro/base/templates/base/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/base/templates/base/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitedevpro/base/tests/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/base/tests/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitedevpro/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitedevpro/modulos/tests/test_aula_detalhe.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/modulos/tests/test_aula_detalhe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitedevpro/modulos/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/modulos/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitedevpro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +80,7 @@
       <recent name="$PROJECT_DIR$/sitedevpro/base/templates/base" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_login.py">
+  <component name="RunManager" selected="Python tests.testar tudo com migrações">
     <configuration name="pytest for test_modulos_indice.test_indice_disponivel" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="DjangoPro" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -198,10 +204,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in test_aula_detalhe.py" />
         <item itemvalue="Python tests.pytest in test_login.py" />
         <item itemvalue="Python tests.pytest in test_modulos_indice.py" />
         <item itemvalue="Python tests.pytest in test_indice.py" />
-        <item itemvalue="Python tests.pytest in test_aula_detalhe.py" />
         <item itemvalue="Python tests.pytest for test_modulos_indice.test_indice_disponivel" />
       </list>
     </recent_temporary>
