@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="corrigindo problema no deploy">
+    <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="consertando problemas de deploy">
+      <change beforePath="$PROJECT_DIR$/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitgnore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitgnore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -220,13 +222,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675333342220</updated>
-    </task>
-    <task id="LOCAL-00030" summary="coletados arquivos estáticos, configurado o amazon AWS e configurada lib django-s3-folder-storage&#10;&#10;close #21 close #22 close #23">
-      <created>1676033452706</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1676033452706</updated>
     </task>
     <task id="LOCAL-00031" summary="coletados arquivos estáticos, configurado o amazon AWS e configurada lib django-s3-folder-storage&#10;&#10;close #21 close #22 close #23">
       <created>1676033564354</created>
@@ -564,7 +559,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677852849370</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="consertando problemas de deploy">
+      <created>1677853993347</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1677853993347</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -579,7 +581,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="configurado o rodapé, adicionado favicon, imagens e html.&#10;&#10;close #43, close #44" />
     <MESSAGE value="Criado formulário de lista de espera&#10;&#10;close #46" />
     <MESSAGE value="criada app aperitivo, acrescentado vídeo de motivação, publicado vídeo em produção&#10;&#10;close #51, close #52" />
     <MESSAGE value="Adicionada herança de templates e adicionado contexto de template&#10;&#10;close #54" />
@@ -604,6 +605,7 @@
     <MESSAGE value="Adicionado formulário de recuperação de senhas, adicionadas configurações de envio de email&#10;&#10;close #119, close #120" />
     <MESSAGE value="reativando deploy contínuo" />
     <MESSAGE value="corrigindo problema no deploy" />
-    <option name="LAST_COMMIT_MESSAGE" value="corrigindo problema no deploy" />
+    <MESSAGE value="consertando problemas de deploy" />
+    <option name="LAST_COMMIT_MESSAGE" value="consertando problemas de deploy" />
   </component>
 </project>
