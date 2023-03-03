@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="corrigindo problema no deploy">
-      <change beforePath="$PROJECT_DIR$/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitgnore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitgnore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,10 +26,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.dockerignore" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/.env" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/.gitgnore" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/.github/workflows/cd.yml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/.github/workflows/ci.yml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/.github/workflows/docker-push.yml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Dockerfile" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/contrib/env-sample" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/docker-compose.yml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fly.toml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/requirements.txt" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/sitedevpro/aperitivos/templates/aperitivos/video.html" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/sitedevpro/aperitivos/views.py" root0="FORCE_HIGHLIGHTING" />
@@ -216,13 +220,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675333342220</updated>
-    </task>
-    <task id="LOCAL-00029" summary="coletados arquivos estáticos, configurado o amazon AWS e configurada lib django-s3-folder-storage&#10;&#10;close #21 close #22 close #23">
-      <created>1676031913211</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1676031913211</updated>
     </task>
     <task id="LOCAL-00030" summary="coletados arquivos estáticos, configurado o amazon AWS e configurada lib django-s3-folder-storage&#10;&#10;close #21 close #22 close #23">
       <created>1676033452706</created>
@@ -560,7 +557,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677852354346</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="corrigindo problema no deploy">
+      <created>1677852849370</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1677852849370</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
