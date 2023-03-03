@@ -221,13 +221,6 @@
       <option name="presentableId" value="Default" />
       <updated>1675333342220</updated>
     </task>
-    <task id="LOCAL-00032" summary="adicionada conexão com o banco de dados, criadas e aplicadas migrações&#10;&#10;close #27, close #28">
-      <created>1676125915925</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1676125915925</updated>
-    </task>
     <task id="LOCAL-00033" summary="aplicando migrações no fly.io&#10;&#10;close #30">
       <created>1676287222678</created>
       <option name="number" value="00033" />
@@ -564,7 +557,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677855836650</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="consertando problemas de deploy">
+      <created>1677856884136</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1677856884136</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
