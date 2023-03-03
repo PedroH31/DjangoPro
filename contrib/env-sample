@@ -4,8 +4,14 @@ ALLOWED_HOSTS=localhost, 127.0.0.1
 
 DATABASE_URL=postgres://sitedevpro:sitedevpro@localhost:5434/sitedevpro
 
-# AWS_ACCESS_KEY_ID=AKIA57S2OIOGK7HMGKMN
-# AWS_SECRET_ACCESS_KEY=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
-# AWS_STORAGE_BUCKET_NAME=sitedevpro
 INTERNAL_IPS=127.0.0.1
 SENTRY_DSN=
+
+# Configurações de Email
+
+EMAIL_BACKEND = django.core.mail.backends.console.EmailBackend
+EMAIL_PORT=25
+EMAIL_HOST=localhost
+EMAIL_HOST_USER=
+EMAIL_HOST_PASSWORD=
+EMAIL_USE_TLS=True
