@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="Inserido botão de login, criados testes com o usuário logado&#10;&#10;close #113, close #114">
+    <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="consertando problemas de deploy">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitedevpro/base/templates/base/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/base/templates/base/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitedevpro/base/tests/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/base/tests/test_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitedevpro/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitedevpro/modulos/tests/test_aula_detalhe.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/modulos/tests/test_aula_detalhe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitedevpro/modulos/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/modulos/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitedevpro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitedevpro/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +12,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -32,10 +26,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.dockerignore" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/.env" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/.gitgnore" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/.github/workflows/cd.yml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/.github/workflows/ci.yml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/.github/workflows/docker-push.yml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Dockerfile" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/contrib/env-sample" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/docker-compose.yml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fly.toml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/requirements.txt" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/sitedevpro/aperitivos/templates/aperitivos/video.html" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/sitedevpro/aperitivos/views.py" root0="FORCE_HIGHLIGHTING" />
@@ -220,83 +220,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675333342220</updated>
-    </task>
-    <task id="LOCAL-00023" summary="integrada lib python decouple e configurado debug da aplicação.&#10;close #12">
-      <created>1675689541870</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1675689541870</updated>
-    </task>
-    <task id="LOCAL-00024" summary="integrada lib python decouple e configurado debug da aplicação.&#10;close #12">
-      <created>1675689553423</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1675689553423</updated>
-    </task>
-    <task id="LOCAL-00025" summary="integrada lib python decouple e configurado debug da aplicação.&#10;close #12">
-      <created>1675689664961</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1675689664961</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Configurado endereço do banco de dados direcionado ao PostgreSQL&#10;close #16">
-      <created>1675862301516</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1675862301516</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Configurado endereço do banco de dados direcionado ao PostgreSQL&#10;close #16">
-      <created>1675863921801</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1675863921801</updated>
-    </task>
-    <task id="LOCAL-00028" summary="configurado PostgreSQL no servidor de integração contínua.&#10;&#10;close #19">
-      <created>1675864829159</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1675864829159</updated>
-    </task>
-    <task id="LOCAL-00029" summary="coletados arquivos estáticos, configurado o amazon AWS e configurada lib django-s3-folder-storage&#10;&#10;close #21 close #22 close #23">
-      <created>1676031913211</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1676031913211</updated>
-    </task>
-    <task id="LOCAL-00030" summary="coletados arquivos estáticos, configurado o amazon AWS e configurada lib django-s3-folder-storage&#10;&#10;close #21 close #22 close #23">
-      <created>1676033452706</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1676033452706</updated>
-    </task>
-    <task id="LOCAL-00031" summary="coletados arquivos estáticos, configurado o amazon AWS e configurada lib django-s3-folder-storage&#10;&#10;close #21 close #22 close #23">
-      <created>1676033564354</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1676033564354</updated>
-    </task>
-    <task id="LOCAL-00032" summary="adicionada conexão com o banco de dados, criadas e aplicadas migrações&#10;&#10;close #27, close #28">
-      <created>1676125915925</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1676125915925</updated>
-    </task>
-    <task id="LOCAL-00033" summary="aplicando migrações no fly.io&#10;&#10;close #30">
-      <created>1676287222678</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1676287222678</updated>
     </task>
     <task id="LOCAL-00034" summary="consertado erro no codecov">
       <created>1676287752950</created>
@@ -564,7 +487,84 @@
       <option name="project" value="LOCAL" />
       <updated>1677760091784</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="Inseridos dados de usuário no cabeçalho, Implementado logout de conta&#10;&#10;close #116, close #117">
+      <created>1677764918885</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1677764918885</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Adicionado formulário de recuperação de senhas, adicionadas configurações de envio de email&#10;&#10;close #119, close #120">
+      <created>1677839269817</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1677839269817</updated>
+    </task>
+    <task id="LOCAL-00074" summary="reativando deploy contínuo">
+      <created>1677839340810</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1677839340810</updated>
+    </task>
+    <task id="LOCAL-00075" summary="corrigindo problema no deploy">
+      <created>1677844309624</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1677844309624</updated>
+    </task>
+    <task id="LOCAL-00076" summary="corrigindo problema no deploy">
+      <created>1677847218502</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1677847218502</updated>
+    </task>
+    <task id="LOCAL-00077" summary="corrigindo problema no deploy">
+      <created>1677852354345</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1677852354346</updated>
+    </task>
+    <task id="LOCAL-00078" summary="corrigindo problema no deploy">
+      <created>1677852849370</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1677852849370</updated>
+    </task>
+    <task id="LOCAL-00079" summary="consertando problemas de deploy">
+      <created>1677853993347</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1677853993347</updated>
+    </task>
+    <task id="LOCAL-00080" summary="consertando problemas de deploy">
+      <created>1677855836650</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1677855836650</updated>
+    </task>
+    <task id="LOCAL-00081" summary="consertando problemas de deploy">
+      <created>1677856884136</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1677856884136</updated>
+    </task>
+    <task id="LOCAL-00082" summary="consertando problemas de deploy">
+      <created>1677858184215</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1677858184216</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -579,11 +579,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="aplicando migrações no fly.io&#10;&#10;close #30" />
-    <MESSAGE value="consertado erro no codecov" />
-    <MESSAGE value="adicionada badge do codecov" />
-    <MESSAGE value="adicionada template tag static &#10;&#10;close #37" />
-    <MESSAGE value="configurado o rodapé, adicionado favicon, imagens e html.&#10;&#10;close #43, close #44" />
     <MESSAGE value="Criado formulário de lista de espera&#10;&#10;close #46" />
     <MESSAGE value="criada app aperitivo, acrescentado vídeo de motivação, publicado vídeo em produção&#10;&#10;close #51, close #52" />
     <MESSAGE value="Adicionada herança de templates e adicionado contexto de template&#10;&#10;close #54" />
@@ -604,6 +599,11 @@
     <MESSAGE value="Criada tabela intermediária, configurado modelo com Model Meta, adicionados modelos relacionados no Admin&#10;&#10;close #104, close #105, close #106" />
     <MESSAGE value="adicionado controle de acesso nas aulas, implementado formulário simples de login, adicionada configuração de redirect de login&#10;&#10;close #109, close #110, close #111" />
     <MESSAGE value="Inserido botão de login, criados testes com o usuário logado&#10;&#10;close #113, close #114" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inserido botão de login, criados testes com o usuário logado&#10;&#10;close #113, close #114" />
+    <MESSAGE value="Inseridos dados de usuário no cabeçalho, Implementado logout de conta&#10;&#10;close #116, close #117" />
+    <MESSAGE value="Adicionado formulário de recuperação de senhas, adicionadas configurações de envio de email&#10;&#10;close #119, close #120" />
+    <MESSAGE value="reativando deploy contínuo" />
+    <MESSAGE value="corrigindo problema no deploy" />
+    <MESSAGE value="consertando problemas de deploy" />
+    <option name="LAST_COMMIT_MESSAGE" value="consertando problemas de deploy" />
   </component>
 </project>
