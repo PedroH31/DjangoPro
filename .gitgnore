@@ -136,3 +136,4 @@ staticfiles
 
 # postgres files for local developement
 .pgdata
+.env
