@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="consertando problemas de deploy">
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/fonts/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/fonts/LICENSE.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +29,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/.dockerignore" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/.env" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/.gitgnore" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/.github/workflows/cd.yml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/.github/workflows/ci.yml" root0="FORCE_HIGHLIGHTING" />
@@ -204,10 +205,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in test_aula_detalhe.py" />
-        <item itemvalue="Python tests.pytest in test_login.py" />
         <item itemvalue="Python tests.pytest in test_modulos_indice.py" />
+        <item itemvalue="Python tests.pytest in test_login.py" />
         <item itemvalue="Python tests.pytest in test_indice.py" />
+        <item itemvalue="Python tests.pytest in test_aula_detalhe.py" />
         <item itemvalue="Python tests.pytest for test_modulos_indice.test_indice_disponivel" />
       </list>
     </recent_temporary>

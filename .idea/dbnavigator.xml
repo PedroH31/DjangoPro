@@ -14,7 +14,6 @@
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="bb988b93-820f-48d6-a521-e2ce55d91487">
       <console name="Connection" type="STANDARD" schema="public" session="Main"><![CDATA[SELECT m.id, m.titulo, a.id, a.titulo, a.modulo_id FROM modulos_modulo AS m JOIN modulos_aula a on m.id = a.modulo_id where m.id=2;]]></console>
-      <console name="Postgres" type="STANDARD" schema="sitedevpro" session="Main"><![CDATA[SELECT datname FROM pg_database]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseEditorStateManager">
