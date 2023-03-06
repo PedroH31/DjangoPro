@@ -39,7 +39,6 @@ processes = []
     timeout = "2s"
 
 [deploy]
-  release_command = "python manage.py makemigrations"
   release_command = "python manage.py migrate --noinput"
 
 [[statics]]

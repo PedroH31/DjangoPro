@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="Inserido botão de login, criados testes com o usuário logado&#10;&#10;close #113, close #114">
-      <change beforePath="$PROJECT_DIR$/.gitgnore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitgnore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fly.toml" beforeDir="false" afterPath="$PROJECT_DIR$/fly.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,20 +222,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675333342220</updated>
-    </task>
-    <task id="LOCAL-00033" summary="aplicando migrações no fly.io&#10;&#10;close #30">
-      <created>1676287222678</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1676287222678</updated>
-    </task>
-    <task id="LOCAL-00034" summary="consertado erro no codecov">
-      <created>1676287752950</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1676287752950</updated>
     </task>
     <task id="LOCAL-00035" summary="adicionada badge do codecov">
       <created>1676470079096</created>
@@ -568,7 +552,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677856884136</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="Inserido botão de login, criados testes com o usuário logado&#10;&#10;close #113, close #114">
+      <created>1678105808988</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1678105808990</updated>
+    </task>
+    <task id="LOCAL-00083" summary="Inserido botão de login, criados testes com o usuário logado&#10;&#10;close #113, close #114">
+      <created>1678105828137</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1678105828137</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -602,12 +600,12 @@
     <MESSAGE value="Implementada funcionalidade de turmas, adicionado campo ManyToManyField&#10;&#10;close #101, close #102" />
     <MESSAGE value="Criada tabela intermediária, configurado modelo com Model Meta, adicionados modelos relacionados no Admin&#10;&#10;close #104, close #105, close #106" />
     <MESSAGE value="adicionado controle de acesso nas aulas, implementado formulário simples de login, adicionada configuração de redirect de login&#10;&#10;close #109, close #110, close #111" />
-    <MESSAGE value="Inserido botão de login, criados testes com o usuário logado&#10;&#10;close #113, close #114" />
     <MESSAGE value="Inseridos dados de usuário no cabeçalho, Implementado logout de conta&#10;&#10;close #116, close #117" />
     <MESSAGE value="Adicionado formulário de recuperação de senhas, adicionadas configurações de envio de email&#10;&#10;close #119, close #120" />
     <MESSAGE value="reativando deploy contínuo" />
     <MESSAGE value="corrigindo problema no deploy" />
     <MESSAGE value="consertando problemas de deploy" />
-    <option name="LAST_COMMIT_MESSAGE" value="consertando problemas de deploy" />
+    <MESSAGE value="Inserido botão de login, criados testes com o usuário logado&#10;&#10;close #113, close #114" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inserido botão de login, criados testes com o usuário logado&#10;&#10;close #113, close #114" />
   </component>
 </project>
