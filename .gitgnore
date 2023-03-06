@@ -134,5 +134,5 @@ dmypy.json
 # Django
 staticfiles
 
-# postgres files for local developement
+# postgres files for local development
 .pgdata

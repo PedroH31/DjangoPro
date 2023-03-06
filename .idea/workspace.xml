@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="consertando problemas de deploy">
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+    <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="Inserido botão de login, criados testes com o usuário logado&#10;&#10;close #113, close #114">
+      <change beforePath="$PROJECT_DIR$/.gitgnore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitgnore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/admin/fonts/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/fonts/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fly.toml" beforeDir="false" afterPath="$PROJECT_DIR$/fly.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,13 +22,14 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="consertar_deploy" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/.dockerignore" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/.env" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/.gitgnore" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/.github/workflows/cd.yml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/.github/workflows/ci.yml" root0="FORCE_HIGHLIGHTING" />
@@ -44,6 +45,7 @@
     <setting file="file://$PROJECT_DIR$/sitedevpro/base/templates/base/home.html" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/sitedevpro/base/tests/test_home.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/sitedevpro/base/views.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/sitedevpro/modulos/admin.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/sitedevpro/modulos/migrations/0001_initial.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/sitedevpro/modulos/models.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/sitedevpro/settings.py" root0="FORCE_HIGHLIGHTING" />
@@ -62,6 +64,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Git.Branch.Popup.ShowAllRemotes&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/Pedro/PycharmProjects/DjangoPro/sitedevpro/base/templates/registration&quot;,
@@ -195,13 +198,13 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.testar tudo com migrações" />
-      <item itemvalue="Python tests.testar tudo sem migrações" />
       <item itemvalue="Python tests.pytest for test_modulos_indice.test_indice_disponivel" />
       <item itemvalue="Python tests.pytest in test_aula_detalhe.py" />
       <item itemvalue="Python tests.pytest in test_indice.py" />
       <item itemvalue="Python tests.pytest in test_login.py" />
       <item itemvalue="Python tests.pytest in test_modulos_indice.py" />
+      <item itemvalue="Python tests.testar tudo com migrações" />
+      <item itemvalue="Python tests.testar tudo sem migrações" />
     </list>
     <recent_temporary>
       <list>
