@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="Inserido botão de login, criados testes com o usuário logado&#10;&#10;close #113, close #114">
+    <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="consertando comando de deploy no fly.toml">
+      <change beforePath="$PROJECT_DIR$/.gitgnore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitgnore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/docker-push.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/docker-push.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -222,13 +224,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675333342220</updated>
-    </task>
-    <task id="LOCAL-00035" summary="adicionada badge do codecov">
-      <created>1676470079096</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1676470079096</updated>
     </task>
     <task id="LOCAL-00036" summary="adicionada template tag static &#10;&#10;close #37">
       <created>1676723901356</created>
@@ -566,7 +561,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678105828137</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="consertando comando de deploy no fly.toml">
+      <created>1678106017619</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1678106017619</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -581,7 +583,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Criado formulário de lista de espera&#10;&#10;close #46" />
     <MESSAGE value="criada app aperitivo, acrescentado vídeo de motivação, publicado vídeo em produção&#10;&#10;close #51, close #52" />
     <MESSAGE value="Adicionada herança de templates e adicionado contexto de template&#10;&#10;close #54" />
     <MESSAGE value="configurados vídeos pelo slug, adicionados filtros, lista de vídeos iterada com o laço for&#10;&#10;close #56, close #57, close #58" />
@@ -606,6 +607,7 @@
     <MESSAGE value="corrigindo problema no deploy" />
     <MESSAGE value="consertando problemas de deploy" />
     <MESSAGE value="Inserido botão de login, criados testes com o usuário logado&#10;&#10;close #113, close #114" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inserido botão de login, criados testes com o usuário logado&#10;&#10;close #113, close #114" />
+    <MESSAGE value="consertando comando de deploy no fly.toml" />
+    <option name="LAST_COMMIT_MESSAGE" value="consertando comando de deploy no fly.toml" />
   </component>
 </project>
