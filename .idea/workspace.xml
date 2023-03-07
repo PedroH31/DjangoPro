@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="consertando comando de deploy no fly.toml">
-      <change beforePath="$PROJECT_DIR$/.gitgnore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitgnore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/docker-push.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/docker-push.yml" afterDir="false" />
+    <list default="true" id="6a937325-e468-4ab8-9d3d-41a2e93371c4" name="Changes" comment="reupload de arquivos estáticos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +21,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="consertar_deploy" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -224,13 +223,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675333342220</updated>
-    </task>
-    <task id="LOCAL-00036" summary="adicionada template tag static &#10;&#10;close #37">
-      <created>1676723901356</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1676723901356</updated>
     </task>
     <task id="LOCAL-00037" summary="configurado o rodapé, adicionado favicon, imagens e html.&#10;&#10;close #43, close #44">
       <created>1676995089356</created>
@@ -568,7 +560,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678106017619</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="reupload de arquivos estáticos">
+      <created>1678110229113</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1678110229113</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -583,7 +582,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="criada app aperitivo, acrescentado vídeo de motivação, publicado vídeo em produção&#10;&#10;close #51, close #52" />
     <MESSAGE value="Adicionada herança de templates e adicionado contexto de template&#10;&#10;close #54" />
     <MESSAGE value="configurados vídeos pelo slug, adicionados filtros, lista de vídeos iterada com o laço for&#10;&#10;close #56, close #57, close #58" />
     <MESSAGE value="adicionados acesso a atributos e a métodos nos templates.&#10;&#10;close #60, close #61" />
@@ -608,6 +606,7 @@
     <MESSAGE value="consertando problemas de deploy" />
     <MESSAGE value="Inserido botão de login, criados testes com o usuário logado&#10;&#10;close #113, close #114" />
     <MESSAGE value="consertando comando de deploy no fly.toml" />
-    <option name="LAST_COMMIT_MESSAGE" value="consertando comando de deploy no fly.toml" />
+    <MESSAGE value="reupload de arquivos estáticos" />
+    <option name="LAST_COMMIT_MESSAGE" value="reupload de arquivos estáticos" />
   </component>
 </project>
