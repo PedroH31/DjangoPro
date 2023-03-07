@@ -26,24 +26,3 @@ Código de desenvolvimento no módulo Django do Site [Dev Pro](https://pythonpro
 #### Rodar Django:
 
 ```python manage.py runserver```
-
-#### Localizar arquivo manage.py:
-
-```alias mng="python $VIRTUAL_ENV/../manage.py"```
-
-### <strong>Instalar o flyctl</strong>:
-
-```curl -L https://fly.io/install.sh | sh```
-
-#### Após instalar o flyctl:
-
-copie os caminhos export para o seu arquivo: ```source ~/.zshrc```
-
-#### Rodar o fly.io:
-```fly launch```
-
-#### cobertura de testes:
-```pipenv install --dev 'pytest-cov' codecov```
-
-#### python decouple:
-```pipenv install 'python-decouple'```
