@@ -2,6 +2,7 @@
 website simples para implementar meus conhecimentos em django.
 Código de desenvolvimento no módulo Django do Site [Dev Pro](https://pythonpro.com.br/)
 [![codecov](https://codecov.io/gh/PedroH31/DjangoPro/branch/main/graph/badge.svg?token=IT1DEYMH2B)](https://codecov.io/gh/PedroH31/DjangoPro)
+Aplicação disponível [aqui](https://sitepypro.fly.dev/)
 
 ### <strong>Instruções para instalação</strong>:
 
